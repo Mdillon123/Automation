@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FirstTestSuite" duration-ms="9681" started-at="2018-10-16T17:42:11Z" finished-at="2018-10-16T17:42:21Z">
+    <groups>
+    </groups>
+    <test name="FirstTest" duration-ms="9681" started-at="2018-10-16T17:42:11Z" finished-at="2018-10-16T17:42:21Z">
+      <class name="com.dice.FirstTest">
+        <test-method status="PASS" signature="firstTestMethod()[pri:0, instance:com.dice.FirstTest@79b4d0f]" name="firstTestMethod" duration-ms="9663" started-at="2018-10-16T17:42:11Z" finished-at="2018-10-16T17:42:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestMethod -->
+      </class> <!-- com.dice.FirstTest -->
+    </test> <!-- FirstTest -->
+  </suite> <!-- FirstTestSuite -->
+</testng-results>
