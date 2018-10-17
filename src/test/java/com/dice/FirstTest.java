@@ -2,6 +2,7 @@ package com.dice;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
@@ -15,16 +16,16 @@ public class FirstTest {
 		System.setProperty("webdriver.chromedriver", "/Users/b002878/Downloads/chromedriver");
 		
 		WebDriver driver = new FirefoxDriver();
-		ChromeDriver Cdriver = new ChromeDriver();
+//		ChromeDriver Cdriver = new ChromeDriver();
 //		ChromeOptions chrome = new ChromeOptions();
 //		chrome.addArguments("--disable-extensions");
 		
 		
 		
 		//Open dice.com
-		//driver.get("http://www.dice.com");
+		driver.get("http://www.dice.com");
 		
-		Cdriver.get("http://www.dice.com");
+	//	Cdriver.get("http://www.dice.com");
 	
 		System.out.println("I opened Dice.com");
 		
@@ -52,7 +53,7 @@ public class FirstTest {
 		//Cdriver.get("http://www.dice.com");
 		
 		System.out.println("I opened linkedin.com");
-		
+
 		//Assert.assertEquals(), arg1);
 		//Close dice.com
 		driver.quit();

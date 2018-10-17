@@ -9,10 +9,30 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">FirstTestSuite</th></tr>
-<tr><td><a href="#t0">FirstTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">9,681</td><td></td><td></td></tr>
+<tr><td><a href="#t0">FirstTest</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">6,312</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">FirstTestSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">FirstTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.dice.FirstTest</td><td><a href="#m0">firstTestMethod</a></td><td rowspan="1">1539711731712</td><td rowspan="1">9663</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">FirstTestSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">FirstTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.dice.FirstTest</td><td><a href="#m0">firstTestMethod</a></td><td rowspan="1">1539780998179</td><td rowspan="1">6287</td></tr></tbody>
 </table>
-<h2>FirstTest</h2><h3 id="m0">com.dice.FirstTest#firstTestMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>FirstTest</h2><h3 id="m0">com.dice.FirstTest#firstTestMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: missing or invalid &apos;entry.level&apos;
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;a4731595&apos;, ip: &apos;fe80:0:0:0:1888:efea:2431:3523%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461585 (0be2cd95f834e9..., userDataDir: /var/folders/_6/w7258byn117...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: a52146e43e0fe0bc1d819cd94fcaed66
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at com.dice.FirstTest.firstTestMethod(FirstTest.java:28)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

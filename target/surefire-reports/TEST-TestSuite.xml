@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="9.944" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="6.831" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/b002878/eclipse-workspace/Frameworkfromscratch/Automation/target/surefire/surefirebooter8918371237736674305.jar /Users/b002878/eclipse-workspace/Frameworkfromscratch/Automation/target/surefire 2018-10-16T13-42-10_975-jvmRun1 surefire6818747743214471738tmp surefire_04213129155597604041tmp"/>
+    <property name="sun.java.command" value="/Users/b002878/eclipse-workspace/Frameworkfromscratch/Automation/target/surefire/surefirebooter1414746121012470307.jar /Users/b002878/eclipse-workspace/Frameworkfromscratch/Automation/target/surefire 2018-10-17T08-56-37_317-jvmRun1 surefire5683941960657527148tmp surefire_02334840091181324416tmp"/>
     <property name="surefire.test.class.path" value="/Users/b002878/eclipse-workspace/Frameworkfromscratch/Automation/target/test-classes:/Users/b002878/eclipse-workspace/Frameworkfromscratch/Automation/target/classes:/Users/b002878/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/b002878/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/b002878/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/b002878/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/Users/b002878/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/Users/b002878/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/Users/b002878/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/b002878/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/b002878/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/b002878/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/b002878/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/b002878/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/b002878/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/b002878/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/b002878/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/b002878/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/b002878/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/b002878/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/b002878/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/b002878/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/b002878/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/b002878"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/b002878/eclipse-workspace/Frameworkfromscratch/Automation/target/surefire/surefirebooter8918371237736674305.jar"/>
+    <property name="surefire.real.class.path" value="/Users/b002878/eclipse-workspace/Frameworkfromscratch/Automation/target/surefire/surefirebooter1414746121012470307.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
@@ -58,5 +58,34 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="firstTestMethod" classname="com.dice.FirstTest" time="9.664"/>
+  <testcase name="firstTestMethod" classname="com.dice.FirstTest" time="6.296">
+    <failure message="unknown error: cannot determine loading status&#10;from unknown error: missing or invalid &apos;entry.level&apos;&#10;  (Session info: chrome=69.0.3497.100)&#10;  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;a4731595&apos;, ip: &apos;fe80:0:0:0:1888:efea:2431:3523%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461585 (0be2cd95f834e9..., userDataDir: /var/folders/_6/w7258byn117...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}&#10;Session ID: a52146e43e0fe0bc1d819cd94fcaed66" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from unknown error: missing or invalid 'entry.level'
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b),platform=Mac OS X 10.12.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'a4731595', ip: 'fe80:0:0:0:1888:efea:2431:3523%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.29.461585 (0be2cd95f834e9..., userDataDir: /var/folders/_6/w7258byn117...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: a52146e43e0fe0bc1d819cd94fcaed66
+	at com.dice.FirstTest.firstTestMethod(FirstTest.java:28)
+</failure>
+    <system-err><![CDATA[1539780998825	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/_6/w7258byn117456hq3gwf6l7j8vhw8n/T/rust_mozprofile.fbT5cpwQbo92"
+1539780999648	Marionette	INFO	Enabled via --marionette
+2018-10-17 08:56:40.712 plugin-container[37266:1516121] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xb337, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1539781001198	Marionette	INFO	Listening on port 61540
+1539781001212	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 17, 2018 8:56:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b) on port 28474
+Only local connections are allowed.
+2018-10-17 08:56:41.715 plugin-container[37269:1516227] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xad37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+Oct 17, 2018 8:56:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
 </testsuite>

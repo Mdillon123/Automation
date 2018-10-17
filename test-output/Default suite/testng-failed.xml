@@ -5,7 +5,11 @@
     <classes>
       <class name="com.dice.FirstTest">
         <methods>
+<<<<<<< HEAD
           <include name="firstTestMethod"/>
+=======
+          <include name="firsTestMethod"/>
+>>>>>>> 73ea6805ce0bb66d01a7479563c2f48b306d52ba
         </methods>
       </class> <!-- com.dice.FirstTest -->
     </classes>
